@@ -28,5 +28,6 @@ describe("test", () => {
     // snapshot
     expect(container).toMatchSnapshot();
     ws.clean();
+    mock.reset();
   });
 });
